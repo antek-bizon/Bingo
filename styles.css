@@ -2,6 +2,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-size: 2vh;
+  font-family: -apple-system, system-ui, "Segoe UI", "Liberation Sans", sans-serif;
 }
 
 body {
@@ -26,8 +28,6 @@ button {
   font-weight: 600;
   box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
   cursor: pointer;
-  font-family: -apple-system, system-ui, "Segoe UI", "Liberation Sans", sans-serif;
-  font-size: 13px;
   text-align: center;
   text-decoration: none;
   user-select: none;
@@ -58,6 +58,7 @@ button:active {
 }
 
 td {
+  aspect-ratio: 1/1;
   position: relative;
   border: 1px solid black;
   text-align: center;
