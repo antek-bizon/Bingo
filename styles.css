@@ -2,23 +2,22 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-size: 2vh;
+  font-size: min(3vh, 3vw);
   font-family: -apple-system, system-ui, "Segoe UI", "Liberation Sans", sans-serif;
 }
 
 body {
   width: 100%;
+  overflow: scroll;
 }
 
-.flex {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+table {
+  margin: 0 auto;
 }
 
 header {
-  margin: 20px;
+  margin: 15px auto;
+  text-align: center;
 }
 
 button {
@@ -48,12 +47,12 @@ button:active {
 }
 
 #gen-btn {
-  background-color: #0085ff;
+  background-color: cornflowerblue;
   color: white;
 }
 
 #reset-btn {
-  background-color: #FF3732;
+  background-color: #f31;
   color: white;
 }
 
@@ -62,7 +61,7 @@ td {
   position: relative;
   border: 1px solid black;
   text-align: center;
-  padding: min(3vh, 3vw);
+  padding: 8px;
 }
 
 .center {
