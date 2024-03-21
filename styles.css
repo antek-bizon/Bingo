@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-size: min(3vh, 3vw);
+  font-size: 17px;
   font-family: -apple-system, system-ui, "Segoe UI", "Liberation Sans", sans-serif;
 }
 
@@ -78,7 +78,7 @@ td {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: min(7vh, 7vw);
+  width: 30px;
   height: 2px;
   background-color: red;
   transform: translate(-50%, -50%) rotate(45deg);
@@ -89,7 +89,7 @@ td {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: min(7vh, 7vw);
+  width: 30px;
   height: 2px;
   background-color: red;
   transform: translate(-50%, -50%) rotate(-45deg);
